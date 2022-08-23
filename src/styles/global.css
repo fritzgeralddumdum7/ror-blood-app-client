@@ -1,0 +1,22 @@
+.carousel {
+    height: 70vh;
+}
+
+.carousel::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(17, 42, 94, 0.3);
+    z-index: 1;
+}
+
+table thead tr th {
+    white-space: pre;
+}
+
+table tbody tr td {
+    white-space: pre;
+}
